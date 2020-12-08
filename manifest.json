@@ -2,10 +2,6 @@
   "name": "UnFootprint New Tab",
   "version": "1.0",
   "description": "See your UnFootprint results now",
-  "content_scripts": [{
-    "js": ["widgets.js"],
-    "matches": ["https://*/*"]
-  }],
   "content_security_policy": "script-src https://unfootprint.com/ 'self'; object-src 'self'",
   "browser_action": {
     "default_icon": "favicon.png",
